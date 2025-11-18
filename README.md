@@ -8,7 +8,7 @@ This Power BI project explores the CFSAN Adverse Event Reporting System (CAERS) 
 
 The analysis spans 2004 to mid-2017, uncovering trends, demographic patterns, and potential product safety signals, enabling data-driven decisions in public health and product safety.  
 
-              <img width="318" height="159" alt="image" src="https://github.com/user-attachments/assets/f6feae0f-70eb-4e44-8880-4d46139cbf04" />
+ <img width="318" height="159" alt="image" src="https://github.com/user-attachments/assets/f6feae0f-70eb-4e44-8880-4d46139cbf04" />
 
 
 ---
