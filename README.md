@@ -1,55 +1,107 @@
-# -Adverse-Event-Reporting-Analysis-POWER-BI-Dashboard
-**Project Overview**
-This Power BI project analyzes the CFSAN Adverse Event Reporting System (CAERS) database, a critical tool used by the FDA to track adverse event and product complaint reports across foods, dietary supplements, and cosmetics from 2004 to mid-2017. The goal is to discover trends, demographic impacts, product safety signals, and risk factors, empowering stakeholders with actionable public health insights.​
+## 📊 Power BI Project: CFSAN Adverse Event Reporting System (CAERS) Analysis  
 
-**Data Source**
-Dataset: CAERS Adverse Event Reports (2004–2017)
+### 🧩 Overview  
+This Power BI project explores the CFSAN Adverse Event Reporting System (CAERS) — a database maintained by the U.S. FDA to record adverse events and product complaints related to:  
+- 🧴 Cosmetics  
+- 💊 Dietary Supplements  
+- 🍔 Foods  
 
-Fields: Report numbers, product and brand info, industry codes, patient demographics, adverse outcomes, and standardized MedDRA-coded symptoms.​
+The analysis spans 2004 to mid-2017, uncovering trends, demographic patterns, and potential product safety signals, enabling data-driven decisions in public health and product safety.  
 
-**Objectives**
-Identify patterns and trends in adverse events across products and demographics.
+---
 
-Reveal distribution by product role, industry, and outcome severity.
+### 📂 Data Source  
+**Dataset:** CAERS Adverse Event Reports (2004–2017)  
+**Provider:** U.S. FDA  
 
-Inform safety surveillance, regulatory decision-making, and public health responses.​
+**Key Fields:**  
+- 📑 Report numbers & product details  
+- 🏷️ Industry codes & brand info  
+- 👥 Patient demographics (age, gender)  
+- ⚠️ Adverse outcomes & standardized MedDRA-coded symptoms  
 
-**Power BI Workflow**
-Data Import & Cleaning: Handled missing values, standardized text and numerical fields, converted date formats, and categorized age/gender and outcomes.
+---
 
-Preliminary Analysis: Assessed record consistency/uniqueness, role categorization (Suspect vs. Concomitant products), and foundational filtering.​
+### 🎯 Objectives  
+- Identify patterns and trends in adverse events across products and demographics.  
+- Reveal distributions by product role, industry, and outcome severity.  
+- Support regulatory and public health decisions with actionable insights.  
 
-Feature Engineering: Grouped by product, outcome, age, gender, and time. Created new fields (age groups, outcome categories) and DAX measures for advanced insights.​
+---
 
-**Dashboard Features**
-Industry-wise Risk: Visualizes which FDA-regulated product categories (cosmetics, dietary supplements, foods) have the most reported adverse events.
+### ⚙️ Power BI Workflow  
 
-Age & Gender Trends: Analyzes outcome severity and frequency by demographic groups.
+#### 1. 🧹 Data Import & Cleaning  
+- Handled missing values and standardized data formats.  
+- Converted date fields to consistent formats.  
+- Categorized age, gender, and outcomes for uniform analysis.  
 
-Outcome & Symptom Analysis: Maps serious outcomes and highlights top-reported symptoms, with severity metrics.
+#### 2. 🔍 Preliminary Analysis  
+- Validated record consistency and uniqueness.  
+- Classified product roles (Suspect vs. Concomitant).  
+- Implemented foundational filters for key attributes.  
 
-Predictive Analytics: DAX-based models estimate risk per product, demographic, and symptom category.
+#### 3. 🧠 Feature Engineering  
+- Grouped records by product, outcome, age, gender, and time.  
+- Created new fields:  
+  - Age Groups  
+  - Outcome Categories  
+- Built DAX measures for deeper and predictive insights.  
 
-Time Series: Investigates trends, spikes, and seasonality in report volumes.
+---
 
-Correlations & Insights: Reveals links between symptoms, age, industry, and severe outcomes for targeted regulatory focus.​
+### 🖥️ Dashboard Highlights  
 
-**Key Insights**
-Most reports are linked to dietary supplements and cosmetic products.
+- **📈 Industry-wise Risk Analysis:**  
+  Displays which FDA-regulated product categories report the most adverse events.  
 
-Higher adverse event risk and greater severity are seen in older adults and certain product categories.
+- **👩‍🦳 Demographic Trends:**  
+  Visualizes severity and frequency of outcomes by age and gender.  
 
-GI symptoms are most frequent; cardiovascular and neurological events drive severe outcomes.
+- **⚕️ Outcome & Symptom Analysis:**  
+  Highlights top-reported symptoms and maps serious outcomes with severity scores.  
 
-Predictive metrics highlight top-risk products, aiding proactive FDA/regulatory monitoring.​
+- **🤖 Predictive Analytics:**  
+  Built with DAX-based models estimating risk per product, demographic, and symptom type.  
 
+- **📉 Time Series:**  
+  Captures spikes, trends, and potential seasonality in report volumes.  
 
-**How to Use**
-Import the dataset into Power BI Desktop.
+- **🔗 Correlation Insights:**  
+  Reveals connections among symptoms, age, industry, and serious outcomes for better regulatory focus.  
 
-Access interactive dashboards: Apply slicers for age, gender, product, industry, and symptom to explore risk factors and outcomes.
+---
 
-Review documentation and DAX formulas embedded in the report for further customization.
+### 💡 Key Insights  
 
-**License**
-For academic and non-commercial use only. Source: FDA CAERS Database.
+| Insight Area | Findings |
+|---------------|-----------|
+| Top Reporting Categories | Dietary supplements and cosmetics lead in adverse event reports. |
+| Age & Severity | Older adults show higher severity and frequency of adverse events. |
+| Common Symptoms | GI symptoms dominate report frequency; cardiovascular and neurological events are linked to severe outcomes. |
+| Predictive Results | Identified top-risk products, helping agencies anticipate and act proactively. |
+
+---
+
+### 🚀 How to Use  
+1. Import the CAERS dataset into Power BI Desktop.  
+2. Explore interactive dashboards using filters for:  
+   - Age  
+   - Gender  
+   - Product  
+   - Industry  
+   - Symptom  
+3. Review embedded documentation and DAX formulas for customization and exploration.  
+
+---
+
+### 🧾 License  
+**Usage:** Academic and non-commercial purposes only.  
+**Source:** [FDA CAERS Database](https://www.fda.gov/food/compliance-enforcement-food/cfsan-adverse-event-reporting-system-caers)  
+
+---
+
+### 🌟 Project Snapshot  
+🚧 Built with: Power BI Desktop  
+📅 Data Range: 2004 – mid-2017  
+📊 Goal: Enhance public health surveillance through data-driven visualization  
